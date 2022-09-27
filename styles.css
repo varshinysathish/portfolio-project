@@ -1,6 +1,6 @@
 :root {
-  --branding-color: #e5dacc;
-  --secondary-color: #fcfaef;
+  --branding-color: #c7b198;
+  --secondary-color: #f0ece2;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
 }
@@ -50,6 +50,7 @@ p {
 .btn-branding {
   background: var(--branding-color);
   color: white;
+  text-decoration: none;
   border-radius: 4px;
   font-size: 18px;
   line-height: 27px;
@@ -57,7 +58,9 @@ p {
 }
 .btn-branding-outline {
   color: var(--branding-color);
-  border: 1 px solid var(--branding-color);
+  border: 1px solid var(--branding-color);
+  background: white;
+  text-decoration: none;
   border-radius: 4px;
   font-size: 18px;
   line-height: 27px;
